@@ -1,0 +1,121 @@
+##################################################
+# VOORBEELDEN: Simpele R Code
+##################################################
+
+# 4 manieren om een variabele
+# een waarde toe te kennen
+a = 5
+a <- 5
+5 -> a
+assign("a", 5)
+
+# simpele berekeningen
+a + a # 10
+a - a # 0
+a * a # 25
+a / a # 1
+a %% a # 0, modulus
+a ^ 3 # 125
+sqrt(a^2) # 5
+125^(1/3) # 5, third power root
+
+# simpele vectorsyntax
+a = c(1:5) # [1] 1 2 3 4 5
+a[0] # integer(0)
+a[1] # [1] 1
+a*2 # [1]  2  4  6  8 10
+a + c(1:2) # [1] 2 4 4 6 6
+
+# simpele matrixsyntax
+b = matrix(c(1:9), nrow = 3)
+#      [,1] [,2] [,3]
+# [1,]    1    4    7
+# [2,]    2    5    8
+# [3,]    3    6    9
+b * 2 # scalaire vermenigvuldiging
+b %*% b # matrixvermenigvuldiging
+b*b
+
+##################################################
+# VOORBEELD DECISION TREE: woningprijzen per regio
+##################################################
+
+# libraries
+install.packages("tree")
+library(tree)
+
+setwd("C:/Users/mgastel89/Documents/AMIS/Repos
+      /SIGs/Machine Learning/Session1")
+woningprijzen = read.csv2("woningprijzen.csv")
+head(woningprijzen)
+
+woningPrijsTree <- tree(prijs~periode+regio
+                        ,data=woningprijzen)
+
+# Plot and statistics
+plot(woningPrijsTree)
+text(woningPrijsTree, pretty = 1)
+summary(woningPrijsTree)
+
+##################################################
+# TITANIC DATA: Maak een decision tree met de
+#               Titanic data!
+##################################################
+
+# Loading and inspecting the data
+setwd("C:/Users/mgastel89/Documents/AMIS/Repos
+      /SIGs/Machine Learning/Session1")
+titanic = read.csv("titanic.csv")
+head(titanic)
+summary(titanic)
+dim(titanic)
+
+# Dataset definition
+# Variable  Definition	          Key
+# survival 	Survival 	            0 = No, 1 = Yes
+# pclass 	  Ticket class 	        1 = 1st, 2 = 2nd, 3 = 3rd
+# sex 	    Sex
+# Age 	    Age in years
+# sibsp 	  # of siblings / spouses aboard the Titanic
+# parch 	  # of parents / children aboard the Titanic
+# ticket 	  Ticket number
+# fare 	    Passenger fare
+# cabin 	  Cabin number
+# embarked 	Port of Embarkation 	C = Cherbourg, Q = Queenstown, S = Southampton
+
+# Data wrangling:
+# Replace missing Age values with median Age
+titanic$Age <- sapply(titanic$Age, FUN=function(x) {ifelse(is.na(x),median(titanic$Age, na.rm = TRUE),x)})
+# Missing Values for Embarked
+which(titanic$Embarked == "")
+# Find most common Embarked
+table(titanic$Embarked) /sum(titanic$Embarked != "")
+# Set missing values to "S"
+titanic$Embarked[titanic$Embarked == ""] <- "S"
+# Find percentage of missing values in Cabin
+1 - (sum(titanic$Cabin != "")/nrow(titanic))
+# Find Cabin categories
+titanic$Cabin <- substr(titanic$Cabin,1,1)
+table(titanic$Cabin)
+# Set missing values to "H"
+titanic$Cabin[titanic$Cabin == ""] <- "H"
+# End data wrangling
+
+# Factorize factor variables: this way R knows these variables are discrete, not actual numbers
+factor_vars <- c('PassengerId','Pclass','Sex','Embarked','Cabin')
+titanic[factor_vars] <- lapply(titanic[factor_vars], function(x) as.factor(x))
+
+##################################################
+# IBM Attrition data
+##################################################
+
+# Loading and inspecting the data
+setwd("C:/Users/mgastel89/Documents/AMIS/Repos
+      /SIGs/Machine Learning/Session1")
+attrition = read.csv("attrition.csv")
+head(attrition)
+summary(attrition)
+dim(attrition)
+
+# convert yes/no to 1/0
+attrition$Attrition <- as.numeric(as.factor(attrition$Attrition)) - 1
