@@ -1,0 +1,181 @@
+periode;regio;prijs
+1995;Arnhem;80240
+2000;Arnhem;149386
+2005;Arnhem;188779
+2006;Arnhem;196732
+2007;Arnhem;203549
+2008;Arnhem;219351
+2009;Arnhem;200876
+2010;Arnhem;204498
+2011;Arnhem;212747
+2012;Arnhem;205702
+2013;Arnhem;189517
+2014;Arnhem;190551
+2015;Arnhem;199528
+2016;Arnhem;205816
+2017;Arnhem;221424
+1995;Assen;75013
+2000;Assen;120177
+2005;Assen;168939
+2006;Assen;180645
+2007;Assen;184287
+2008;Assen;186792
+2009;Assen;184050
+2010;Assen;186206
+2011;Assen;182993
+2012;Assen;182530
+2013;Assen;172090
+2014;Assen;175497
+2015;Assen;183838
+2016;Assen;190911
+2017;Assen;199135
+1995;'s-Gravenhage (gemeente);74053
+2000;'s-Gravenhage (gemeente);135368
+2005;'s-Gravenhage (gemeente);195514
+2006;'s-Gravenhage (gemeente);210009
+2007;'s-Gravenhage (gemeente);222556
+2008;'s-Gravenhage (gemeente);228682
+2009;'s-Gravenhage (gemeente);213057
+2010;'s-Gravenhage (gemeente);227616
+2011;'s-Gravenhage (gemeente);227392
+2012;'s-Gravenhage (gemeente);210847
+2013;'s-Gravenhage (gemeente);216214
+2014;'s-Gravenhage (gemeente);223820
+2015;'s-Gravenhage (gemeente);231302
+2016;'s-Gravenhage (gemeente);244849
+2017;'s-Gravenhage (gemeente);266672
+1995;Groningen (gemeente);62635
+2000;Groningen (gemeente);99943
+2005;Groningen (gemeente);164280
+2006;Groningen (gemeente);176792
+2007;Groningen (gemeente);185270
+2008;Groningen (gemeente);182934
+2009;Groningen (gemeente);184709
+2010;Groningen (gemeente);180217
+2011;Groningen (gemeente);182373
+2012;Groningen (gemeente);173646
+2013;Groningen (gemeente);165860
+2014;Groningen (gemeente);170483
+2015;Groningen (gemeente);177441
+2016;Groningen (gemeente);186685
+2017;Groningen (gemeente);206996
+1995;Haarlem;83039
+2000;Haarlem;163672
+2005;Haarlem;227984
+2006;Haarlem;243584
+2007;Haarlem;261016
+2008;Haarlem;270670
+2009;Haarlem;266916
+2010;Haarlem;267413
+2011;Haarlem;265863
+2012;Haarlem;252145
+2013;Haarlem;234272
+2014;Haarlem;245391
+2015;Haarlem;268197
+2016;Haarlem;290367
+2017;Haarlem;324843
+1995;'s-Hertogenbosch;100092
+2000;'s-Hertogenbosch;191688
+2005;'s-Hertogenbosch;246806
+2006;'s-Hertogenbosch;270982
+2007;'s-Hertogenbosch;273812
+2008;'s-Hertogenbosch;277835
+2009;'s-Hertogenbosch;262102
+2010;'s-Hertogenbosch;261128
+2011;'s-Hertogenbosch;265653
+2012;'s-Hertogenbosch;247091
+2013;'s-Hertogenbosch;221045
+2014;'s-Hertogenbosch;232591
+2015;'s-Hertogenbosch;253262
+2016;'s-Hertogenbosch;266306
+2017;'s-Hertogenbosch;288878
+1995;Leeuwarden;56599
+2000;Leeuwarden;95702
+2005;Leeuwarden;143596
+2006;Leeuwarden;152814
+2007;Leeuwarden;163429
+2008;Leeuwarden;163906
+2009;Leeuwarden;163917
+2010;Leeuwarden;162912
+2011;Leeuwarden;164585
+2012;Leeuwarden;154669
+2013;Leeuwarden;143835
+2014;Leeuwarden;154238
+2015;Leeuwarden;157690
+2016;Leeuwarden;164437
+2017;Leeuwarden;177737
+1995;Lelystad;80373
+2000;Lelystad;131274
+2005;Lelystad;174333
+2006;Lelystad;188626
+2007;Lelystad;193464
+2008;Lelystad;196381
+2009;Lelystad;184520
+2010;Lelystad;193575
+2011;Lelystad;175362
+2012;Lelystad;165632
+2013;Lelystad;161270
+2014;Lelystad;171740
+2015;Lelystad;179997
+2016;Lelystad;187695
+2017;Lelystad;196170
+1995;Maastricht;96899
+2000;Maastricht;162594
+2005;Maastricht;210951
+2006;Maastricht;223176
+2007;Maastricht;230137
+2008;Maastricht;231883
+2009;Maastricht;227686
+2010;Maastricht;222775
+2011;Maastricht;222066
+2012;Maastricht;214174
+2013;Maastricht;206639
+2014;Maastricht;211753
+2015;Maastricht;221578
+2016;Maastricht;223194
+2017;Maastricht;240627
+1995;Middelburg (Z.);88136
+2000;Middelburg (Z.);123880
+2005;Middelburg (Z.);214129
+2006;Middelburg (Z.);213418
+2007;Middelburg (Z.);224097
+2008;Middelburg (Z.);223481
+2009;Middelburg (Z.);215184
+2010;Middelburg (Z.);206310
+2011;Middelburg (Z.);205714
+2012;Middelburg (Z.);202625
+2013;Middelburg (Z.);205495
+2014;Middelburg (Z.);198061
+2015;Middelburg (Z.);193782
+2016;Middelburg (Z.);213342
+2017;Middelburg (Z.);232814
+1995;Utrecht (gemeente);85568
+2000;Utrecht (gemeente);165717
+2005;Utrecht (gemeente);219305
+2006;Utrecht (gemeente);230815
+2007;Utrecht (gemeente);248002
+2008;Utrecht (gemeente);267507
+2009;Utrecht (gemeente);252284
+2010;Utrecht (gemeente);252064
+2011;Utrecht (gemeente);255878
+2012;Utrecht (gemeente);246061
+2013;Utrecht (gemeente);231691
+2014;Utrecht (gemeente);238446
+2015;Utrecht (gemeente);245900
+2016;Utrecht (gemeente);267618
+2017;Utrecht (gemeente);307737
+1995;Zwolle;84813
+2000;Zwolle;155551
+2005;Zwolle;206170
+2006;Zwolle;209386
+2007;Zwolle;214650
+2008;Zwolle;229305
+2009;Zwolle;215519
+2010;Zwolle;223622
+2011;Zwolle;220887
+2012;Zwolle;215084
+2013;Zwolle;213228
+2014;Zwolle;216558
+2015;Zwolle;218349
+2016;Zwolle;228479
+2017;Zwolle;245803
